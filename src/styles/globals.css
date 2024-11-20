@@ -1,0 +1,16 @@
+@import './index.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-stroke {
+    /* Prefix required. Even Firefox only supports the -webkit- prefix */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-color: black;
+}
+
+.sidebar {
+    border-inline-end: 1px solid rgb(17 24 39) !important;
+}
